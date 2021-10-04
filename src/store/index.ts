@@ -1,8 +1,16 @@
-import { createStore } from "vuex";
+import { reactive } from "vue";
 
-export default createStore({
-  state: {},
-  mutations: {},
-  actions: {},
-  modules: {},
-});
+const state = reactive({
+  counter: 0
+})
+
+const methods = {
+  hello(){
+    return "hello";
+  }
+}
+
+export default {
+  state,
+  methods
+}
