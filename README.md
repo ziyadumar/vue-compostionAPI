@@ -1,4 +1,4 @@
-# vue-sample
+# vue-composition
 
 ## Project setup
 ```
